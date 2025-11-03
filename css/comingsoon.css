@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Space between sections */
+  width: 100%;
+  max-width: 1200px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.left-section,
+.right-section {
+  border-radius: 20px;
+  width: 48%;
+  padding: 30px;
+  transition: background-color 0.5s ease, box-shadow 0.5s ease;
+  margin-bottom: 20px;
+  box-shadow: 0 0 50px rgba(255, 255, 255, 0.263); /* Soft shadow for depth */
+  background-color: rgba(0, 0, 0, 0.443);
+}
+
+/* Hover effect */
+.left-section:hover,
+.right-section:hover {
+  background-color: #000000;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+.countdown:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 36px;
+  color: #fdda0a;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.newsletter input {
+  padding: 10px;
+  width: 70%;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  background: #fff;
+  color: #000;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background-color: #fdda0a;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.social-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #fdda0a;
+}
+
+.right-section h2 {
+  color: #fdda0a;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+/* Use a different Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+
+.countdown {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  padding: 20px; /* Increased padding for better spacing */
+  background-color: rgba(0, 0, 0, 0.2); /* Slightly darker background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); /* Added shadow for depth */
+}
+
+.time {
+  font-family: "Oswald", sans-serif; /* New font */
+  font-size: 32px;
+  color: #fdda0a;
+  text-align: center;
+  font-weight: bold;
+  opacity: 0; /* Start hidden */
+  animation: appear 0.5s forwards; /* Apply the appear animation */
+}
+
+/* New keyframe animations */
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Sequential animation delay for each element */
+.time:nth-child(1) {
+  animation-delay: 0.2s; /* Days */
+}
+
+.time:nth-child(2) {
+  animation-delay: 0.4s; /* Hours */
+}
+
+.time:nth-child(3) {
+  animation-delay: 0.6s; /* Minutes */
+}
+
+.time:nth-child(4) {
+  animation-delay: 0.8s; /* Seconds */
+}
+
+/* Styling for the span elements */
+.time span {
+  display: block;
+  font-size: 60px; /* Larger font for the countdown */
+  color: #fff;
+}
+
+.contact-info p {
+  margin: 10px 0;
+  color: #fdda0a;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .left-section,
+  .right-section {
+    width: 100%;
+    /* Take full width on small screens */
+  }
+  .left-section {
+    width: 100%;
+    margin-top: 10%;
+  }
+  .newsletter {
+    flex-direction: column; /* Stack input and button */
+    align-items: stretch; /* Full width alignment */
+  }
+
+  .newsletter input {
+    width: 100%; /* Full width for input */
+    margin-bottom: 10px; /* Space between input and button */
+  }
+
+  .newsletter button {
+    width: 100%; /* Full width for button */
+  }
+
+  h3 {
+    font-size: 28px; /* Adjust heading size for smaller screens */
+  }
+
+  h2 {
+    font-size: 24px; /* Adjust section heading size for smaller screens */
+  }
+
+  .time {
+    font-size: 24px; /* Smaller countdown font size */
+  }
+
+  .time span {
+    font-size: 40px; /* Adjust span font size */
+  }
+}
+
+@media (max-width: 480px) {
+  h3 {
+    font-size: 24px; /* Further reduce heading size */
+  }
+
+  .time {
+    font-size: 20px; /* Further reduce countdown font size */
+  }
+
+  .time span {
+    font-size: 32px; /* Further adjust span font size */
+  }
+  .left-section {
+    width: 100%;
+    margin-top: 80%;
+  }
+}

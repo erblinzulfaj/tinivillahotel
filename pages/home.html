@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./../css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMfChbg+YZmG+q7Ol6+4skCq5dFYF6Eq/MX0BOF"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Dancing+Script:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init({
+        publicKey: "C99H-CIbhnECATCra",
+      });
+    })();
+  </script>
+  <body>
+    <div
+      id="cookie-banner"
+      style="
+        display: none;
+        background: #fdda0a;
+        color: #fff;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 9999;
+      "
+    >
+      <p style="width: 95%;">
+        We use cookies to improve your experience. By using our site, you agree
+        to our
+        <a href="./privacy-policy.html" style="color: #ffffff;"
+          >Privacy Policy</a
+        >.
+      </p>
+      <button
+        id="accept-cookies"
+        style="
+          background: #fdda0a;
+          color: white;
+          border: 1pt solid white;
+          padding: 5px 10px;
+          cursor: pointer;
+          border-radius: 50px;
+        "
+      >
+        Accept
+      </button>
+      <!-- Close button (X) -->
+      <button
+        id="decline-cookies"
+        style="
+          background: transparent;
+          color: white;
+          border: none;
+          font-size: 20px;
+          font-weight: bold;
+          cursor: pointer;
+          position: absolute;
+          top: 10px;
+          right: 10px;
+        "
+      >
+        X
+      </button>
+    </div>
+
+    <div class="firstpage">
+      <div class="first">
+        <div class="con">
+          <p class="info">
+            <a
+              style="
+                color: #fdda0a;
+                text-decoration: none;
+                margin: 0;
+                padding: 0;
+              "
+              href="tel:+38345306260"
+            >
+              <i class="fas fa-phone-alt" aria-hidden="true"> </i>
+            </a>
+
+            <a href="tel:+38345306260" class="number">+383 45 306 260</a>
+          </p>
+          <span class="divider" style="color: white; margin: 0 10px;"></span>
+          <p class="info">
+            <a
+              style="
+                text-decoration: none;
+                color: #fdda0a;
+                margin: 0;
+                padding: 0;
+              "
+              href="mailto:tinivillamotel@gmail.com"
+            >
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+            </a>
+            <a href="mailto:tinivillamotel@gmail.com" class="email"
+              >tinivillamotel@gmail.com</a
+            >
+          </p>
+        </div>
+        <div class="icons">
+          <a
+            style="color: #fdda0a;"
+            href="https://instagram.com/tinivillamotel/"
+            target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a
+            style="color: #fdda0a;"
+            href="https://www.facebook.com/tinivillamotel/"
+            target="_blank"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a
+            style="color: #fdda0a;"
+            href="https://www.tiktok.com/@tinivillamotel?lang=en"
+            target="_blank"
+            ><i class="bi bi-tiktok"></i
+          ></a>
+        </div>
+      </div>
+
+      <header class="header">
+        <nav class="nav">
+          <a href="./home.html">
+            <img class="logo" src="./../images/logo.png" alt="Logo" />
+          </a>
+          <div class="hamburger" onclick="toggleMenu()">
+            <i class="bi bi-list"></i>
+            <!-- This will be changed to 'X' when toggled -->
+          </div>
+          <ul class="navbar-ul">
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./about-us.html">About</a></li>
+            <li><a href="./vilas.html">Villas</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="welcome">
+        <button class="arrow-btn left" onclick="prevContent()">&#60;</button>
+        <h3 id="message-h3" class="message-h3">
+          Enjoy your time in our Vilas
+        </h3>
+        <h1 id="message-h1" class="message-h1">
+          WELCOME TO THE TINI VILLA HOTEL
+        </h1>
+        <button class="arrow-btn right" onclick="nextContent()">&#62;</button>
+        <p class="start">Start Explore</p>
+      </div>
+
+      <div class="navigation">
+        <button class="nav-btn" onclick="changeContent(1)">1</button>
+        <button class="nav-btn" onclick="changeContent(2)">2</button>
+        <button class="nav-btn" onclick="changeContent(3)">3</button>
+      </div>
+    </div>
+
+    <section class="about-section">
+      <div class="about-content">
+        <h3>Enjoy your time in our Hotel</h3>
+        <h1>About Our Villas</h1>
+        <p>
+          <span class="quote">W</span>elcome to our exclusive collection of
+          luxury villas, where comfort meets elegance. Each villa is designed to
+          offer a unique experience, combining modern amenities with a special
+          local touch.
+        </p>
+        <p>
+          Our villas offer the perfect escape for families and couples seeking a
+          peaceful place to unwind. Enjoy spacious interiors, breathtaking
+          views, and the privacy you deserve, all while being close to local
+          attractions.
+        </p>
+        <p>
+          Whether you're looking for a cozy retreat or a luxurious space, we
+          have the ideal villa to meet your needs. Relax, unwind, and create
+          unforgettable memories in a setting that feels like your home away
+          from home.
+        </p>
+
+        <a href="./about-us.html" class="about-button">READ MORE</a>
+      </div>
+      <div class="about-images">
+        <img src="./../images/extravip/1.jpg" alt="Hotel Main" />
+        <img
+          src="./../images/vila7/vila4.jpg"
+          alt="Hotel Small"
+          class="small-image"
+        />
+      </div>
+    </section>
+    <section class="popular">
+      <div class="special">
+        <h3>Special Vilas</h3>
+        <h1>The Most Popular Villas</h1>
+        <a href="../pages/vilas.html" class="about-button">View All Villas</a>
+      </div>
+
+      <div class="photos">
+        <div class="photo">
+          <img src="./../images/extravip/6.jpg" alt="Room 1" />
+          <div class="photo-content">
+            <h2>Extra Vip</h2>
+            <p>
+              Extra VIP villa for the ultimate in comfort and luxury.
+            </p>
+            <hr
+              style="
+                height: 1px;
+                border: none;
+                background-color: #d3d3d3;
+                margin: 10px 0;
+              "
+            />
+
+            <div class="details">
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-person-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                  />
+                </svg>
+                2 Guests
+              </span>
+              |
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 10V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v4H2v8h2v-2h16v2h2v-8h-2Zm-8 0H6V6h6v4Zm8 6H6v-4h12v4Zm-4-6V6h2v4h-2Z"
+                  />
+                </svg>
+                1 Bed
+              </span>
+              |
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-droplet-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 16a6 6 0 0 0 6-6c0-1.655-1.122-2.904-2.432-4.362C10.254 4.176 8.75 2.503 8 0c0 0-6 5.686-6 10a6 6 0 0 0 6 6M6.646 4.646l.708.708c-.29.29-1.128 1.311-1.907 2.87l-.894-.448c.82-1.641 1.717-2.753 2.093-3.13"
+                  />
+                </svg>
+                Jacuzzi
+              </span>
+              |
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-thermometer-sun"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M5 12.5a1.5 1.5 0 1 1-2-1.415V2.5a.5.5 0 0 1 1 0v8.585A1.5 1.5 0 0 1 5 12.5"
+                  />
+                  <path
+                    d="M1 2.5a2.5 2.5 0 0 1 5 0v7.55a3.5 3.5 0 1 1-5 0zM3.5 1A1.5 1.5 0 0 0 2 2.5v7.987l-.167.15a2.5 2.5 0 1 0 3.333 0L5 10.486V2.5A1.5 1.5 0 0 0 3.5 1m5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 .5-.5m4.243 1.757a.5.5 0 0 1 0 .707l-.707.708a.5.5 0 1 1-.708-.708l.708-.707a.5.5 0 0 1 .707 0M8 5.5a.5.5 0 0 1 .5-.5 3 3 0 1 1 0 6 .5.5 0 0 1 0-1 2 2 0 0 0 0-4 .5.5 0 0 1-.5-.5M12.5 8a.5.5 0 0 1 .5-.5h1a.5.5 0 1 1 0 1h-1a.5.5 0 0 1-.5-.5m-1.172 2.828a.5.5 0 0 1 .708 0l.707.708a.5.5 0 0 1-.707.707l-.708-.707a.5.5 0 0 1 0-.708M8.5 12a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0v-1a.5.5 0 0 1 .5-.5"
+                  />
+                </svg>
+                Sauna
+              </span>
+            </div>
+
+            <div class="cmimi">
+              <p class="price" style="margin-right: 20px;">
+                Pushimi/30€ | Fjetja/60€ | 24h/100€
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="./../images/vip1/1.jpg" alt="Room 1" />
+          <div class="photo-content">
+            <h2>VIP</h2>
+            <p>Exclusive VIP villa with luxury amenities.</p>
+            <hr
+              style="
+                height: 1px;
+                border: none;
+                background-color: #d3d3d3;
+                margin: 10px 0;
+              "
+            />
+
+            <div class="details">
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-person-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                  />
+                </svg>
+                2 Guests</span
+              >
+              |
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 10V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v4H2v8h2v-2h16v2h2v-8h-2Zm-8 0H6V6h6v4Zm8 6H6v-4h12v4Zm-4-6V6h2v4h-2Z"
+                  />
+                </svg>
+                1 Bed</span
+              >
+              |
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-droplet-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.5 8.5a3.5 3.5 0 1 1 7 0c0 1.806-1.667 3.5-3.5 3.5s-3.5-1.694-3.5-3.5Zm7.002-3.1c-.96-.843-1.956-1.89-2.633-3.31a.93.93 0 0 0-1.634 0C6.56 3.512 5.564 4.56 4.603 5.4c-1.031.908-1.976 1.913-2.566 3.35-.4.984-.48 1.918-.419 2.758a5.63 5.63 0 0 0 1.612 3.407C4.47 15.555 5.703 16 8 16s3.531-.445 4.77-1.085a5.63 5.63 0 0 0 1.612-3.408c.061-.839-.018-1.773-.419-2.757-.59-1.437-1.535-2.442-2.566-3.35Z"
+                  />
+                </svg>
+                1 Bath</span
+              >
+            </div>
+            <div class="cmimi">
+              <p class="price" style="margin-right: 20px;">
+                Pushimi/25€ | Fjetja/50€ | 24h/80€
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="./../images/vila7/vila4.jpg" alt="Room 1" />
+          <div class="photo-content">
+            <h2>Standard</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <hr
+              style="
+                height: 1px;
+                border: none;
+                background-color: #d3d3d3;
+                margin: 10px 0;
+              "
+            />
+
+            <div class="details">
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-person-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                  />
+                </svg>
+                2 Guests</span
+              >
+              |
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 10V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v4H2v8h2v-2h16v2h2v-8h-2Zm-8 0H6V6h6v4Zm8 6H6v-4h12v4Zm-4-6V6h2v4h-2Z"
+                  />
+                </svg>
+                1 Bed</span
+              >
+              |
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-droplet-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.5 8.5a3.5 3.5 0 1 1 7 0c0 1.806-1.667 3.5-3.5 3.5s-3.5-1.694-3.5-3.5Zm7.002-3.1c-.96-.843-1.956-1.89-2.633-3.31a.93.93 0 0 0-1.634 0C6.56 3.512 5.564 4.56 4.603 5.4c-1.031.908-1.976 1.913-2.566 3.35-.4.984-.48 1.918-.419 2.758a5.63 5.63 0 0 0 1.612 3.407C4.47 15.555 5.703 16 8 16s3.531-.445 4.77-1.085a5.63 5.63 0 0 0 1.612-3.408c.061-.839-.018-1.773-.419-2.757-.59-1.437-1.535-2.442-2.566-3.35Z"
+                  />
+                </svg>
+                1 Bath</span
+              >
+            </div>
+            <div class="cmimi">
+              <p class="price" style="margin-right: 20px;">
+                Pushimi/15€ | Fjetja/25€ | 24h/50€
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="photo">
+          <img src="./../images/vila4.jpg" alt="Room 1" />
+          <div class="photo-content">
+            <h2>Garden Family Room</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <hr
+              style="
+                height: 1px;
+                border: none;
+                background-color: #d3d3d3;
+                margin: 10px 0;
+              "
+            />
+
+            <div class="details">
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-person-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                  />
+                </svg>
+                2 Guests</span
+              >
+              |
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M20 10V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v4H2v8h2v-2h16v2h2v-8h-2Zm-8 0H6V6h6v4Zm8 6H6v-4h12v4Zm-4-6V6h2v4h-2Z"
+                  />
+                </svg>
+                1 Bed</span
+              >
+              |
+              <span
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-droplet-fill"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M4.5 8.5a3.5 3.5 0 1 1 7 0c0 1.806-1.667 3.5-3.5 3.5s-3.5-1.694-3.5-3.5Zm7.002-3.1c-.96-.843-1.956-1.89-2.633-3.31a.93.93 0 0 0-1.634 0C6.56 3.512 5.564 4.56 4.603 5.4c-1.031.908-1.976 1.913-2.566 3.35-.4.984-.48 1.918-.419 2.758a5.63 5.63 0 0 0 1.612 3.407C4.47 15.555 5.703 16 8 16s3.531-.445 4.77-1.085a5.63 5.63 0 0 0 1.612-3.408c.061-.839-.018-1.773-.419-2.757-.59-1.437-1.535-2.442-2.566-3.35Z"
+                  />
+                </svg>
+                1 Bath</span
+              >
+            </div>
+            <div class="cmimi">
+              <p class="price" style="margin-right: 20px;">Nata: 129$</p>
+              <p class="price">Pushimi: 89$</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="navigation-arrows">
+        <button class="nav-arrow left" onclick="scrollToLeft()">‹</button>
+        <button class="nav-arrow right" onclick="scrollToRight()">›</button>
+      </div>
+    </section>
+
+    <div id="offer" class="container py-5">
+      <div class="offer section"></div>
+      <div class="offer-content" data-aos="fade-up">
+        <span></span>
+        <h2>WHAT WE OFFER</h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center p-4 shadow-sm">
+            <i class="bi bi-car-front fs-1 text-warning"></i>
+            <!-- Alternative icon for parking -->
+            <h5 class="mt-3">Parking Space</h5>
+            <p>Secure and convenient parking for all guests.</p>
+          </div>
+        </div>
+        <div id="col" class="col-md-3 col-sm-6">
+          <div class="card text-center p-4 shadow-sm">
+            <i class="bi bi-wifi fs-1 text-warning"></i>
+            <h5 class="mt-3">Free WiFi</h5>
+            <p>High-speed internet for all connectivity needs.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center p-4 shadow-sm">
+            <i class="bi bi-bell fs-1 text-warning"></i>
+            <h5 class="mt-3">Room Service</h5>
+            <p>In-villa room service for snacks or essentials.</p>
+          </div>
+        </div>
+        <div id="col" class="col-md-3 col-sm-6">
+          <div class="card text-center p-4 shadow-sm">
+            <i class="bi bi-box-seam fs-1 text-warning"></i>
+            <h5 class="mt-3">Food Delivery</h5>
+            <p>Partnered with restaurants for meal delivery.</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center p-4 shadow-sm">
+            <i class="bi bi-thermometer-sun fs-1 text-warning"></i>
+            <h5 class="mt-3">Sauna</h5>
+            <p>
+              Enjoy a relaxing sauna session. Unwind in a warm and cozy
+              atmosphere.
+            </p>
+          </div>
+        </div>
+        <div id="col" class="col-md-3 col-sm-6">
+          <div class="card text-center p-4 shadow-sm">
+            <i class="bi bi-droplet-half fs-1 text-warning"></i>
+            <h5 class="mt-3">Jacuzzi</h5>
+            <p>
+              Soothe your senses in a luxurious jacuzzi. Perfect for a
+              rejuvenating experience.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="card text-center p-4 shadow-sm">
+            <i class="bi bi-house-door fs-1 text-warning"></i>
+            <h5 class="mt-3">Daily Housekeeping</h5>
+            <p>Professional cleaning services provided daily.</p>
+          </div>
+        </div>
+        <div id="col" class="col-md-3 col-sm-6">
+          <div class="card text-center p-4 shadow-sm">
+            <i class="bi bi-basket3 fs-1 text-warning"></i>
+            <h5 class="mt-3">Laundry Service</h5>
+            <p>On-demand laundry for your convenience.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="contact-content" data-aos="fade-up">
+        <span></span>
+        <h2>CONTACT</h2>
+      </div>
+      <!-- End Section Title -->
+
+      <div class="container">
+        <div class="info-item" id="addres">
+          <i class="bi bi-geo-alt"></i>
+          <h3>Address</h3>
+          <p>Gjergj Kastrioti Skënderbeu, Malishevë 24000</p>
+        </div>
+
+        <div class="info-item">
+          <i class="bi bi-telephone"></i>
+          <h3>Call Us</h3>
+          <p>+383 45 306 260</p>
+        </div>
+
+        <div class="info-item">
+          <i class="bi bi-envelope"></i>
+          <h3>Email Us</h3>
+          <p>tinivillamotel@gmail.com</p>
+        </div>
+      </div>
+      <div id="location" class="cc">
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.630446975195!2d20.75289222194624!3d42.478147847604596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13539fe2406130b7%3A0x7c6aa590dba295bb!2sTINI%20Villa%20Motel-Malishev%C3%AB!5e0!3m2!1sen!2s!4v1730420330597!5m2!1sen!2s"
+            width="600"
+            height="450"
+            style="border: 0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="contact-form">
+          <input type="text" name="name" placeholder="Name" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <input type="text" name="subject" placeholder="Subject" required />
+          <textarea
+            name="message"
+            rows="4"
+            placeholder="Message"
+            required
+          ></textarea>
+          <button type="submit" onclick="send()">Send</button>
+        </div>
+      </div>
+    </section>
+    <!-- /Contact Section -->
+    <footer class="minimal-footer">
+      <div class="footer-content">
+        <nav class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#agent">About</a>
+          <a href="#about">Vilas</a>
+          <a href="#listing">Location</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <div class="social-icons">
+          <a
+            style="color: #fdda0a;"
+            href="https://instagram.com/tinivillamotel/"
+            target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a
+            style="color: #fdda0a;"
+            href="https://www.facebook.com/tinivillamotel/"
+            target="_blank"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a
+            style="color: #fdda0a;"
+            href="https://www.tiktok.com/@tinivillamotel?lang=en"
+            target="_blank"
+            ><i class="bi bi-tiktok"></i
+          ></a>
+        </div>
+        <p class="copyright">
+          &copy; 2024 All rights reserved | This website is made by
+          <a
+            style="
+              color: #fdda0a; /* Highlight color for name */
+              text-decoration: none;
+              font-weight: bold;
+            "
+            href="https://t.ly/7eFNb"
+            target="_blank"
+            >Erblin Zulfaj</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="./../js/home.js"></script>
+    <script>
+      function send() {
+        alert("Mesazhi u dergua me sukses!");
+        window.location.reload();
+      }
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-XXXXXXXXX-X", {
+        cookie_flags: "SameSite=None;Secure",
+        anonymize_ip: true,
+        page_path: window.location.pathname,
+      });
+    </script>
+  </body>
+</html>

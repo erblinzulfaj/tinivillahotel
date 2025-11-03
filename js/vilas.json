@@ -1,0 +1,289 @@
+[
+  {
+    "id": 1,
+    "name": "Vila 1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "guests": 2,
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "type": "Standard",
+    "images": [
+      "../images/vila2.jpg",
+      "../images/vila3.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Vila 2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "guests": 2,
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "type": "Standard",
+    "images": [
+      "../images/vila2.jpg",
+      "../images/vila3.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Vila 3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "guests": 2,
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "type": "Standard",
+    "images": [
+      "../images/vila2.jpg",
+      "../images/vila3.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Vila 4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "guests": 2,
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "type": "Standard",
+    "images": [
+      "../images/vila2.jpg",
+      "../images/vila3.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Vila 5",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "guests": 2,
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "type": "Standard",
+    "images": [
+      "../images/vila2.jpg",
+      "../images/vila3.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Vila 6",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "guests": 2,
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "type": "Standard",
+    "images": [
+      "../images/vila2.jpg",
+      "../images/vila3.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Vila 7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "guests": 2,
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "type": "Standard",
+    "images": [
+      "../images/vila7/vila4.jpg",
+      "../images/vila7/vila2.jpg",
+      "../images/vila7/vila3.jpg",
+      "../images/vila7/vila1.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Vila 8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "guests": 2,
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "type": "Standard",
+    "images": [
+      "../images/vila2.jpg",
+      "../images/vila3.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Vila 9",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "guests": 2,
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "type": "Standard",
+    "images": [
+      "../images/vila2.jpg",
+      "../images/vila3.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Vila 10",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "guests": 2,
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "type": "Standard",
+    "images": [
+      "../images/vila2.jpg",
+      "../images/vila3.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Vila 11",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "guests": 2,
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "type": "Standard",
+    "images": [
+      "../images/vila2.jpg",
+      "../images/vila3.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Vila 12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "guests": 2,
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "type": "Standard",
+    "images": [
+      "../images/vila2.jpg",
+      "../images/vila3.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Vila 13",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "guests": 2,
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "type": "Standard",
+    "images": [
+      "../images/vila2.jpg",
+      "../images/vila3.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "VIP 1",
+    "description": "Exclusive VIP villa with luxury amenities. Perfect for those seeking comfort and style.",
+    "guests": 4,
+    "beds": 2,
+    "baths": 2,
+    "price": "Pushimi/25€, Fjetja/50€, 24h/80€",
+    "type": "VIP",
+    "images": [
+      "../images/vip1/1.jpg",
+      "../images/vip1/2.jpg",
+      "../images/vip1/3.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "VIP 2",
+    "description": "Luxury VIP villa offering the finest in relaxation and comfort.",
+    "guests": "2-3",
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/35€, Fjetja/60€, 24h/100€",
+    "type": "VIP",
+    "images": [
+      "../images/vila2.jpg",
+      "../images/vila3.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Extra VIP 1",
+    "description": "Premium Extra VIP villa for a top-tier experience. Unmatched luxury and elegance.",
+    "guests": "2-3",
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/20€, Fjetja/40€, 24h/70€",
+    "type": "ExtraVIP",
+    "images": [
+      "../images/vila2.jpg",
+      "../images/vila3.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg",
+      "../images/vila2.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Extra VIP 2",
+    "description": "Exquisite Extra VIP villa for the ultimate experience in comfort and luxury.",
+    "guests": "2-3",
+    "beds": 1,
+    "baths": 1,
+    "price": "Pushimi/30€, Fjetja/60€, 24h/100€",
+    "type": "ExtraVIP",
+    "images": [
+      "../images/extravip/1.jpg",
+      "../images/extravip/2.jpg",
+      "../images/extravip/3.jpg",
+      "../images/extravip/4.jpg",
+      "../images/extravip/5.jpg",
+      "../images/extravip/6.jpg"
+    ]
+  }
+]

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebSite TiniVillaHotel - Coming Soon</title>
+    <link rel="stylesheet" href="./css/comingsoon.css" />
+    <script defer src="./js/comingsoon.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "C99H-CIbhnECATCra",
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="container" a>
+      <div class="left-section">
+        <div class="logo">
+          <a href="./pages/home.html">
+            <img src="./images/logo.png" alt="Logo e Hotelit" />
+          </a>
+        </div>
+        <h3>
+          <span style="color: white;">Tini Villa Hotel</span> po vjen së shpejti
+          online
+        </h3>
+        <p>Regjistrohuni tani për t'u njoftuar kur faqja jonë të jetë gati.</p>
+        <div class="newsletter">
+          <input id="email" type="email" placeholder="Emaili juaj" />
+          <button onclick="sendMail()">DËRGO</button>
+        </div>
+        <div class="social-icons">
+          <a
+            href="https://www.facebook.com/search/top?q=tini%20villa%20%26%20motel%20-%20malishev%C3%AB"
+            aria-label="Facebook"
+            ><i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/tinivillamotel/"
+            aria-label="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <div class="right-section">
+        <h2>Rezërvimet online mund të bëhen pas:</h2>
+        <div class="countdown">
+          <div class="time"><span id="days">00</span> Ditë</div>
+          <div class="time"><span id="hours">00</span> Orë</div>
+          <div class="time"><span id="minutes">00</span> Minuta</div>
+          <div class="time"><span id="seconds">00</span> Sekonda</div>
+        </div>
+        <div class="contact-info">
+          <p>
+            Tel:
+            <a
+              style="color: #ffffff; text-decoration: none;"
+              href="tel:+38344123456"
+              >+383 45 306 260</a
+            >
+          </p>
+          <p>
+            Email:
+            <a
+              style="color: #ffffff; text-decoration: none;"
+              href="mailto:tinivillamotel@gmail.com"
+              >tinivillamotel@gmail.com</a
+            >
+          </p>
+          <p>Adresa: <span style="color: white;">Malisheve, Kosove</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
