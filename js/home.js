@@ -41,12 +41,12 @@ const contentData = {
   2: {
     h3: "Discover the elegance",
     h1: "UNFORGETTABLE EXPERIENCE AWAITS",
-    backgroundImage: "./../images/bg1.jpg",
+    backgroundImage: "./../images/bg2.jpg",
   },
   3: {
     h3: "Your perfect getaway",
     h1: "RELAX IN LUXURY AND COMFORT",
-    backgroundImage: "./../images/bg1.jpg",
+    backgroundImage: "./../images/bg3.jpg",
   },
 };
 

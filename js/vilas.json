@@ -26,11 +26,11 @@
     "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
-      "../images/vila2.jpg",
-      "../images/vila3.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg"
+      "../images/vila2/1.jpg",
+      "../images/vila3/2.jpg",
+      "../images/vila2/3.jpg",
+      "../images/vila2/4.jpg",
+      "../images/vila2/5.jpg"
     ]
   },
   {
@@ -77,11 +77,11 @@
     "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
-      "../images/vila2.jpg",
-      "../images/vila3.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg"
+      "../images/vila5/1.jpg",
+      "../images/vila5/2.jpg",
+      "../images/vila5/3.jpg",
+      "../images/vila5/4.jpg",
+      "../images/vila5/5.jpg"
     ]
   },
   {
@@ -94,11 +94,11 @@
     "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
-      "../images/vila2.jpg",
-      "../images/vila3.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg"
+      "../images/vila6/1.jpg",
+      "../images/vila6/2.jpg",
+      "../images/vila6/3.jpg",
+      "../images/vila6/4.jpg",
+      "../images/vila6/5.jpg"
     ]
   },
   {
@@ -111,10 +111,10 @@
     "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
-      "../images/vila7/vila4.jpg",
+      "../images/vila7/vila1.jpg",
       "../images/vila7/vila2.jpg",
       "../images/vila7/vila3.jpg",
-      "../images/vila7/vila1.jpg"
+      "../images/vila7/vila4.jpg"
     ]
   },
   {
@@ -127,11 +127,11 @@
     "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
-      "../images/vila2.jpg",
-      "../images/vila3.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg"
+      "../images/vila8/1.jpg",
+      "../images/vila8/2.jpg",
+      "../images/vila8/3.jpg",
+      "../images/vila8/4.jpg",
+      "../images/vila8/5.jpg"
     ]
   },
   {
@@ -178,11 +178,11 @@
     "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
-      "../images/vila2.jpg",
-      "../images/vila3.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg"
+      "../images/vila11/1.jpg",
+      "../images/vila11/2.jpg",
+      "../images/vila11/3.jpg",
+      "../images/vila11/4.jpg",
+      "../images/vila11/5.jpg"
     ]
   },
   {
@@ -244,11 +244,11 @@
     "price": "Pushimi/35€, Fjetja/60€, 24h/100€",
     "type": "VIP",
     "images": [
-      "../images/vila2.jpg",
-      "../images/vila3.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg"
+      "../images/vip2/1.jpg",
+      "../images/vip2/2.jpg",
+      "../images/vip2/3.jpg",
+      "../images/vip2/4.jpg",
+      "../images/vip2/5.jpg"
     ]
   },
   {
