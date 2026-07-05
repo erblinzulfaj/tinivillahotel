@@ -1,289 +1,162 @@
 [
   {
-    "id": 1,
-    "name": "Vila 1",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
-    "guests": 2,
-    "beds": 1,
-    "baths": 1,
-    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
-    "type": "Standard",
-    "images": [
-      "../images/vila2.jpg",
-      "../images/vila3.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg"
-    ]
-  },
-  {
     "id": 2,
     "name": "Vila 2",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "description": "A cozy standard villa featuring a comfortable bedroom, modern bathroom, and a small private garden. Perfect for couples seeking a quiet retreat.",
+    "description_sq": "Vilë standarde komode me dhomë gjumi të rehatshme dhe banjo moderne. Ideale për çifte.",
     "guests": 2,
     "beds": 1,
     "baths": 1,
     "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
-      "../images/vila2/1.jpg",
-      "../images/vila3/2.jpg",
-      "../images/vila2/3.jpg",
-      "../images/vila2/4.jpg",
-      "../images/vila2/5.jpg"
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Vila 3",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
-    "guests": 2,
-    "beds": 1,
-    "baths": 1,
-    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
-    "type": "Standard",
-    "images": [
-      "../images/vila2.jpg",
-      "../images/vila3.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg"
-    ]
-  },
-  {
-    "id": 4,
-    "name": "Vila 4",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
-    "guests": 2,
-    "beds": 1,
-    "baths": 1,
-    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
-    "type": "Standard",
-    "images": [
-      "../images/vila2.jpg",
-      "../images/vila3.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg"
+      "../../images/vila2/1.jpg",
+      "../../images/vila2/2.jpg",
+      "../../images/vila2/3.jpg",
+      "../../images/vila2/4.jpg",
+      "../../images/vila2/5.jpg"
     ]
   },
   {
     "id": 5,
     "name": "Vila 5",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "description": "Spacious standard villa with a warm ambiance, fully equipped kitchenette, and a relaxing outdoor seating area. Ideal for a peaceful getaway.",
+    "description_sq": "Vilë standarde e bollshme me ambient të ngrohtë dhe kuzhinë të pajisur. Ideale për pushim.",
     "guests": 2,
     "beds": 1,
     "baths": 1,
     "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
-      "../images/vila5/1.jpg",
-      "../images/vila5/2.jpg",
-      "../images/vila5/3.jpg",
-      "../images/vila5/4.jpg",
-      "../images/vila5/5.jpg"
+      "../../images/vila5/1.jpg",
+      "../../images/vila5/2.jpg",
+      "../../images/vila5/3.jpg",
+      "../../images/vila5/4.jpg",
+      "../../images/vila5/5.jpg"
     ]
   },
   {
     "id": 6,
     "name": "Vila 6",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "description": "Charming villa with elegant interiors, air conditioning, and a private balcony overlooking the garden. Great for couples and small families.",
+    "description_sq": "Vilë simpatike me interier elegant dhe ajër të kondicionuar. E përshtatshme për çifte dhe familje të vogla.",
     "guests": 2,
     "beds": 1,
     "baths": 1,
     "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
-      "../images/vila6/1.jpg",
-      "../images/vila6/2.jpg",
-      "../images/vila6/3.jpg",
-      "../images/vila6/4.jpg",
-      "../images/vila6/5.jpg"
+      "../../images/vila6/1.jpg",
+      "../../images/vila6/2.jpg",
+      "../../images/vila6/3.jpg",
+      "../../images/vila6/4.jpg",
+      "../../images/vila6/5.jpg"
     ]
   },
   {
     "id": 7,
     "name": "Vila 7",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "description": "Modern standard villa with stylish decor, a premium mattress, and a flat-screen TV. Enjoy a comfortable and relaxing stay.",
+    "description_sq": "Vilë standarde moderne me dekor elegant dhe TV me ekran të sheshtë. Qëndrim i rehatshëm dhe relaksues.",
     "guests": 2,
     "beds": 1,
     "baths": 1,
     "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
-      "../images/vila7/vila1.jpg",
-      "../images/vila7/vila2.jpg",
-      "../images/vila7/vila3.jpg",
-      "../images/vila7/vila4.jpg"
+      "../../images/vila7/vila1.jpg",
+      "../../images/vila7/vila2.jpg",
+      "../../images/vila7/vila3.jpg",
+      "../../images/vila7/vila4.jpg"
     ]
   },
   {
     "id": 8,
     "name": "Vila 8",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "description": "Cozy and inviting villa with all essential amenities. Features a dedicated workspace, mini-fridge, and complimentary WiFi.",
+    "description_sq": "Vilë komode dhe mikpritëse me të gjitha pajisjet esencialE. Përfshin hapësirë pune dhe WiFi falas.",
     "guests": 2,
     "beds": 1,
     "baths": 1,
     "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
-      "../images/vila8/1.jpg",
-      "../images/vila8/2.jpg",
-      "../images/vila8/3.jpg",
-      "../images/vila8/4.jpg",
-      "../images/vila8/5.jpg"
-    ]
-  },
-  {
-    "id": 9,
-    "name": "Vila 9",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
-    "guests": 2,
-    "beds": 1,
-    "baths": 1,
-    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
-    "type": "Standard",
-    "images": [
-      "../images/vila2.jpg",
-      "../images/vila3.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg"
-    ]
-  },
-  {
-    "id": 10,
-    "name": "Vila 10",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
-    "guests": 2,
-    "beds": 1,
-    "baths": 1,
-    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
-    "type": "Standard",
-    "images": [
-      "../images/vila2.jpg",
-      "../images/vila3.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg"
+      "../../images/vila8/1.jpg",
+      "../../images/vila8/2.jpg",
+      "../../images/vila8/3.jpg",
+      "../../images/vila8/4.jpg",
+      "../../images/vila8/5.jpg"
     ]
   },
   {
     "id": 11,
     "name": "Vila 11",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
+    "description": "A well-appointed villa with a homely atmosphere. Includes a private bathroom with shower, wardrobe, and electric kettle for your convenience.",
+    "description_sq": "Vilë e mirëorganizuar me atmosferë shtëpie. Përfshin banjo private dhe pajisje për çaj.",
     "guests": 2,
     "beds": 1,
     "baths": 1,
     "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
-      "../images/vila11/1.jpg",
-      "../images/vila11/2.jpg",
-      "../images/vila11/3.jpg",
-      "../images/vila11/4.jpg",
-      "../images/vila11/5.jpg"
-    ]
-  },
-  {
-    "id": 12,
-    "name": "Vila 12",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
-    "guests": 2,
-    "beds": 1,
-    "baths": 1,
-    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
-    "type": "Standard",
-    "images": [
-      "../images/vila2.jpg",
-      "../images/vila3.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg"
-    ]
-  },
-  {
-    "id": 13,
-    "name": "Vila 13",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet.",
-    "guests": 2,
-    "beds": 1,
-    "baths": 1,
-    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
-    "type": "Standard",
-    "images": [
-      "../images/vila2.jpg",
-      "../images/vila3.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg"
+      "../../images/vila11/1.jpg",
+      "../../images/vila11/2.jpg",
+      "../../images/vila11/3.jpg",
+      "../../images/vila11/4.jpg",
+      "../../images/vila11/5.jpg"
     ]
   },
   {
     "id": 14,
     "name": "VIP 1",
-    "description": "Exclusive VIP villa with luxury amenities. Perfect for those seeking comfort and style.",
+    "description": "Exclusive VIP villa with luxury amenities including a jacuzzi and sauna. Features a spacious bedroom, elegant living area, and premium furnishings.",
+    "description_sq": "Vilë VIP ekskluzive me jacuzzi dhe sauna. Dhomë gjumi e bollshme dhe mobilim luksoz.",
     "guests": 4,
     "beds": 2,
     "baths": 2,
     "price": "Pushimi/25€, Fjetja/50€, 24h/80€",
     "type": "VIP",
     "images": [
-      "../images/vip1/1.jpg",
-      "../images/vip1/2.jpg",
-      "../images/vip1/3.jpg"
+      "../../images/vip1/1.jpg",
+      "../../images/vip1/2.jpg",
+      "../../images/vip1/3.jpg"
     ]
   },
   {
     "id": 15,
     "name": "VIP 2",
-    "description": "Luxury VIP villa offering the finest in relaxation and comfort.",
+    "description": "Premium VIP villa offering the finest in relaxation. Includes a private jacuzzi, king-size bed, and a beautifully designed interior.",
+    "description_sq": "Vilë VIP premium me jacuzzi privat dhe interier të dizajnuar bukur. Për relaksim maksimal.",
     "guests": "2-3",
     "beds": 1,
     "baths": 1,
     "price": "Pushimi/35€, Fjetja/60€, 24h/100€",
     "type": "VIP",
     "images": [
-      "../images/vip2/1.jpg",
-      "../images/vip2/2.jpg",
-      "../images/vip2/3.jpg",
-      "../images/vip2/4.jpg",
-      "../images/vip2/5.jpg"
-    ]
-  },
-  {
-    "id": 16,
-    "name": "Extra VIP 1",
-    "description": "Premium Extra VIP villa for a top-tier experience. Unmatched luxury and elegance.",
-    "guests": "2-3",
-    "beds": 1,
-    "baths": 1,
-    "price": "Pushimi/20€, Fjetja/40€, 24h/70€",
-    "type": "ExtraVIP",
-    "images": [
-      "../images/vila2.jpg",
-      "../images/vila3.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg",
-      "../images/vila2.jpg"
+      "../../images/vip2/1.jpg",
+      "../../images/vip2/2.jpg",
+      "../../images/vip2/3.jpg",
+      "../../images/vip2/4.jpg",
+      "../../images/vip2/5.jpg"
     ]
   },
   {
     "id": 17,
-    "name": "Extra VIP 2",
-    "description": "Exquisite Extra VIP villa for the ultimate experience in comfort and luxury.",
+    "name": "Extra VIP",
+    "description": "The ultimate luxury experience. This Extra VIP villa boasts a private jacuzzi, sauna, spacious bedroom, and top-of-the-line amenities for an unforgettable stay.",
+    "description_sq": "Vilë luksoze me jacuzzi, sauna dhe dhomë gjumi të bollshme. Pajisjet më të mira për një qëndrim të paharrueshëm.",
     "guests": "2-3",
     "beds": 1,
     "baths": 1,
     "price": "Pushimi/30€, Fjetja/60€, 24h/100€",
     "type": "ExtraVIP",
     "images": [
-      "../images/extravip/1.jpg",
-      "../images/extravip/2.jpg",
-      "../images/extravip/3.jpg",
-      "../images/extravip/4.jpg",
-      "../images/extravip/5.jpg",
-      "../images/extravip/6.jpg"
+      "../../images/extravip/1.jpg",
+      "../../images/extravip/2.jpg",
+      "../../images/extravip/3.jpg",
+      "../../images/extravip/4.jpg",
+      "../../images/extravip/5.jpg",
+      "../../images/extravip/6.jpg"
     ]
   }
 ]

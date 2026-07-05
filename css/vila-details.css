@@ -1,7 +1,8 @@
 body {
   background-image: url("../images/popuar-bg.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 .slider-container {
   display: flex;
@@ -23,7 +24,7 @@ body {
   justify-content: start;
   align-items: center;
   background-color: transparent;
-  margin-top: 7%;
+  margin-top: 15px;
   padding-right: 2%;
   box-shadow: 0px 0px 30px 10px rgba(0, 0, 0, 0.451);
 }
@@ -162,13 +163,20 @@ span i {
     text-align: left;
     padding: 15px;
   }
+  .slider {
+    height: auto;
+    margin-top: 20px;
+  }
   .slider img {
     position: relative;
-    width: 400px;
+    width: 500px;
     height: 350px;
     object-fit: cover;
     z-index: 10;
     border-radius: 15px;
+  }
+  .cardd {
+    height: auto;
   }
 
   .accommodation-info h1 {
@@ -290,10 +298,24 @@ span i {
 .parent {
   width: 56%;
   border: 1px solid #e0e0e0;
-  margin: 0;
   padding: 0;
   margin-left: 2%;
   border-radius: 15px;
+}
+
+@media (max-width: 1024px) {
+  .parent {
+    width: 95%;
+    margin: 0 auto 20px;
+  }
+  .booking-form {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .p {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .booking-form {
@@ -513,16 +535,17 @@ span i {
   content: "SIMILAR VILAS";
   position: absolute;
   font-weight: 600;
-  font-size: 3.9rem; /* Large background text */
-  color: #0000001a; /* Very light color for faint background effect */
+  font-size: clamp(2rem, 6vw, 3.9rem);
+  color: #0000001a;
   top: 44%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: "Playfair Display", serif;
+  white-space: nowrap;
 }
 
 .similar-content h2 {
-  font-size: 3rem;
+  font-size: clamp(1.5rem, 4vw, 3rem);
   font-weight: bold;
   color: #000;
   margin: 10px 0;
@@ -585,51 +608,48 @@ span i {
 
   .similar-content h2 {
     margin-bottom: 20px;
-    font-size: 2.7rem;
+    font-size: 1.5rem;
   }
 
   .similar-content::before {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    font-size: 3.5rem;
+    font-size: 2rem;
   }
 }
 @media (max-width: 768px) {
+  .vila {
+    margin-top: 10%;
+  }
   .vila-content {
-    padding: 60px 15px;
-    margin-bottom: 30px;
+    padding: 30px 15px;
+    margin: 30px 0;
   }
-
   .vila-content h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    margin-top: 70px;
+    height: auto;
   }
-
   .vila-content::before {
-    font-size: 3.5rem;
+    font-size: 3rem;
+    top: 30%;
   }
 }
 
 @media (max-width: 480px) {
   .vila {
-    margin-top: 30%;
+    margin-top: 5%;
   }
   .vila-content {
-    padding: 40px 10px;
-    margin-bottom: 20px;
+    padding: 20px 10px;
+    margin: 20px 0;
   }
-
   .vila-content h2 {
-    margin-bottom: 20px;
-    font-size: 3.3rem;
+    font-size: 2rem;
+    margin-top: 60px;
+    height: auto;
   }
-
   .vila-content::before {
-    margin-top: 40px;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    font-size: 4rem;
+    font-size: 2.5rem;
+    top: 25%;
   }
 }
 

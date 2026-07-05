@@ -1,42 +1,50 @@
-// Fetch and display villas from JSON
+function desc(villa) {
+  return window.currentLang === "sq" && villa.description_sq ? villa.description_sq : villa.description;
+}
+
+function g(key) {
+  return typeof window.t === "function" ? window.t(key) : key;
+}
+
 async function loadVillas() {
   try {
-    const response = await fetch("./../js/vilas.json");
+    const response = await fetch("../../js/vilas.json");
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
     const data = await response.json();
     displayVillas(data);
-    console.log(data); // Check if data is correctly loaded
-    // Proceed with rendering villas
   } catch (error) {
     console.error("Error fetching JSON file:", error);
   }
 }
 
-// Display villas based on filter
 function displayVillas(villas) {
   const villaList = document.getElementById("villa-list");
   villaList.innerHTML = "";
 
   villas.forEach((villa) => {
+    const guestLabel = villa.guests > 1 ? g("guests") : g("guest");
+    const bedLabel = villa.beds > 1 ? g("beds") : g("bed");
+    const bathLabel = villa.baths > 1 ? g("baths") : g("bath");
+
     const villaCard = `
   <div class="col-md-4 mb-4">
     <div class="room-card">
       <img src="${villa.images[0]}" class="room-card-img" alt="${villa.name}" />
       <div class="room-card-body">
         <h5 class="room-card-title">${villa.name}</h5>
-        <p class="room-card-text">${villa.description}</p>
+        <p class="room-card-text">${desc(villa)}</p>
         <div class="room-card-footer">
           <hr />
           <p>
-            <i class="bi bi-person"></i> ${villa.guests} Guest
-            <i class="bi bi-house"></i> ${villa.beds} Bed
-            <i class="bi bi-droplet"></i> ${villa.baths} Bath
+            <i class="bi bi-person"></i> ${villa.guests} ${guestLabel}
+            <i class="bi bi-house"></i> ${villa.beds} ${bedLabel}
+            <i class="bi bi-droplet"></i> ${villa.baths} ${bathLabel}
           </p>
           <hr />
           <p class="room-price">${villa.price}</p>
-          <a href="vila-details.html?id=${villa.id}" class="btn btn-room-details">View Details</a>
+          <a href="../vila-details/?id=${villa.id}" class="btn btn-room-details">${g("view-details")}</a>
         </div>
       </div>
     </div>
@@ -46,9 +54,9 @@ function displayVillas(villas) {
     villaList.insertAdjacentHTML("beforeend", villaCard);
   });
 }
-// Filter villas based on type
+
 function filterVillas(type) {
-  fetch("./../js/vilas.json")
+  fetch("../../js/vilas.json")
     .then((response) => response.json())
     .then((villas) => {
       if (type === "All") {
@@ -57,26 +65,16 @@ function filterVillas(type) {
         const filteredVillas = villas.filter((villa) => villa.type === type);
         displayVillas(filteredVillas);
       }
-
-      // Update active button
       updateActiveButton(type);
     });
 }
 
 function updateActiveButton(activeType) {
   const buttons = document.querySelectorAll(".filter-btn");
-
   buttons.forEach((button) => {
-    if (
-      button.textContent.trim() === activeType ||
-      (activeType === "All" && button.textContent.trim() === "All")
-    ) {
-      button.classList.add("active");
-    } else {
-      button.classList.remove("active");
-    }
+    const btnType = button.getAttribute("data-type");
+    button.classList.toggle("active", btnType === activeType);
   });
 }
 
-// Initialize the villa list on page load
 document.addEventListener("DOMContentLoaded", loadVillas);

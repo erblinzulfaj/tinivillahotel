@@ -1,17 +1,16 @@
 function toggleMenu() {
   const navbarUl = document.querySelector(".navbar-ul");
   const nav = document.querySelector(".nav");
-  const hamburger = document.querySelector(".hamburger");
+  const hamburgerIcon = document.querySelector(".hamburger i");
 
   navbarUl.classList.toggle("show");
 
-  // Toggle expanded class for nav height change
   if (navbarUl.classList.contains("show")) {
     nav.classList.add("expanded");
-    hamburger.classList.add("open"); // Add open class to change hamburger to 'X'
+    hamburgerIcon.className = "bi bi-x-lg";
   } else {
     nav.classList.remove("expanded");
-    hamburger.classList.remove("open"); // Remove open class to revert to hamburger
+    hamburgerIcon.className = "bi bi-list";
   }
 }
 
@@ -27,7 +26,7 @@ document.addEventListener("click", (e) => {
   ) {
     navbarUl.classList.remove("show");
     nav.classList.remove("expanded");
-    hamburger.classList.remove("open"); // Reset hamburger icon when clicking outside
+    document.querySelector(".hamburger i").className = "bi bi-list";
   }
 });
 
@@ -36,17 +35,17 @@ const contentData = {
   1: {
     h3: "Enjoy your time in our Villas",
     h1: "WELCOME TO TINI VILLA HOTEL",
-    backgroundImage: "./../images/bg1.jpg",
+    backgroundImage: "../../images/bg1.jpg",
   },
   2: {
     h3: "Discover the elegance",
     h1: "UNFORGETTABLE EXPERIENCE AWAITS",
-    backgroundImage: "./../images/bg2.jpg",
+    backgroundImage: "../../images/bg2.jpg",
   },
   3: {
     h3: "Your perfect getaway",
     h1: "RELAX IN LUXURY AND COMFORT",
-    backgroundImage: "./../images/bg3.jpg",
+    backgroundImage: "../../images/bg3.jpg",
   },
 };
 
@@ -98,12 +97,16 @@ window.onscroll = function () {
   }
 };
 
-const scrollContainer = document.querySelector(".photos");
-const photos = scrollContainer.querySelectorAll(".photo");
-const photoCount = photos.length;
-const photoWidth = photos[0].offsetWidth;
+function scrollToRight() {
+  const container = document.querySelector(".photos");
+  if (container) container.scrollBy({ left: 300, behavior: "smooth" });
+}
 
-let index = 0;
+function scrollToLeft() {
+  const container = document.querySelector(".photos");
+  if (container) container.scrollBy({ left: -300, behavior: "smooth" });
+}
+
 // Display cookie banner if consent is not set and the user has neither accepted nor declined cookies
 window.onload = function () {
   if (!getCookie("cookies_accepted") && !getCookie("cookies_declined")) {
