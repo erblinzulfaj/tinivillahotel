@@ -3,10 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Tini Villa Hotel - Luxury villas in Malishevë, Kosovë. Book your stay for a relaxing getaway." />
-    <title>Tini Villa Hotel - Luxury Villas in Malishevë</title>
-    <link rel="icon" href="../../images/logo.png" type="image/png" />
-    <link rel="stylesheet" href="../../css/home.css" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./../css/home.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
@@ -46,9 +44,9 @@
       id="cookie-banner"
       style="
         display: none;
-        background: #333;
+        background: #fdda0a;
         color: #fff;
-        padding: 12px 20px;
+        padding: 10px;
         position: fixed;
         bottom: 0;
         width: 100%;
@@ -56,10 +54,10 @@
         z-index: 9999;
       "
     >
-      <p style="display: inline; margin-right: 15px;" data-i18n="cookie-text">
+      <p style="width: 95%;">
         We use cookies to improve your experience. By using our site, you agree
         to our
-        <a href="../privacy-policy/" style="color: #fdda0a;" data-i18n="cookie-policy"
+        <a href="./privacy-policy.html" style="color: #ffffff;"
           >Privacy Policy</a
         >.
       </p>
@@ -67,14 +65,12 @@
         id="accept-cookies"
         style="
           background: #fdda0a;
-          color: #333;
-          border: none;
-          padding: 6px 18px;
+          color: white;
+          border: 1pt solid white;
+          padding: 5px 10px;
           cursor: pointer;
           border-radius: 50px;
-          font-weight: bold;
         "
-        data-i18n="cookie-accept"
       >
         Accept
       </button>
@@ -157,39 +153,33 @@
 
       <header class="header">
         <nav class="nav">
-          <a href="../home/">
-            <img class="logo" src="../../images/logo.png" alt="Logo" />
+          <a href="./home.html">
+            <img class="logo" src="./../images/logo.png" alt="Logo" />
           </a>
           <div class="hamburger" onclick="toggleMenu()">
             <i class="bi bi-list"></i>
+            <!-- This will be changed to 'X' when toggled -->
           </div>
           <ul class="navbar-ul">
-            <li><a href="../home/" data-i18n="nav-home">Home</a></li>
-            <li><a href="../about-us/" data-i18n="nav-about">About</a></li>
-            <li><a href="../vilas/" data-i18n="nav-villas">Villas</a></li>
-            <li><a href="#location" data-i18n="nav-location">Location</a></li>
-            <li><a href="#contact" data-i18n="nav-contact">Contact</a></li>
-            <li class="nav-lang">
-              <div class="lang-switcher">
-                <span class="lang active" data-lang="en">EN</span>
-                <span class="sep">|</span>
-                <span class="lang" data-lang="sq">SQ</span>
-              </div>
-            </li>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="./about-us.html">About</a></li>
+            <li><a href="./vilas.html">Villas</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
       </header>
 
       <div class="welcome">
         <button class="arrow-btn left" onclick="prevContent()">&#60;</button>
-        <h3 id="message-h3" class="message-h3" data-i18n="hero-h3">
+        <h3 id="message-h3" class="message-h3">
           Enjoy your time in our Vilas
         </h3>
-        <h1 id="message-h1" class="message-h1" data-i18n="hero-h1">
+        <h1 id="message-h1" class="message-h1">
           WELCOME TO THE TINI VILLA HOTEL
         </h1>
         <button class="arrow-btn right" onclick="nextContent()">&#62;</button>
-        <a href="../vilas/" class="reserve-btn" data-i18n="hero-btn">Reserve Villas</a>
+        <p class="start">Start Explore</p>
       </div>
 
       <div class="navigation">
@@ -201,9 +191,9 @@
 
     <section class="about-section">
       <div class="about-content">
-        <h3 data-i18n="welcome-h3">Enjoy your time in our Hotel</h3>
-        <h1 data-i18n="welcome-h1">About Our Villas</h1>
-        <p data-i18n="welcome-p">
+        <h3>Enjoy your time in our Hotel</h3>
+        <h1>About Our Villas</h1>
+        <p>
           <span class="quote">W</span>elcome to our exclusive collection of
           luxury villas, where comfort meets elegance. Each villa is designed to
           offer a unique experience, combining modern amenities with a special
@@ -222,12 +212,12 @@
           from home.
         </p>
 
-        <a href="../about-us/" class="about-button" data-i18n="about-btn">READ MORE</a>
+        <a href="./about-us.html" class="about-button">READ MORE</a>
       </div>
       <div class="about-images">
-        <img src="../../images/extravip/1.jpg" alt="Hotel Main" />
+        <img src="./../images/extravip/1.jpg" alt="Hotel Main" />
         <img
-          src="../../images/vila7/vila4.jpg"
+          src="./../images/vila7/vila4.jpg"
           alt="Hotel Small"
           class="small-image"
         />
@@ -236,13 +226,13 @@
     <section class="popular">
       <div class="special">
         <h3>Special Vilas</h3>
-        <h1 data-i18n="popular-title">The Most Popular Villas</h1>
-        <a href="../vilas/" class="about-button" data-i18n="view-all">View All Villas</a>
+        <h1>The Most Popular Villas</h1>
+        <a href="../pages/vilas.html" class="about-button">View All Villas</a>
       </div>
 
       <div class="photos">
         <div class="photo">
-          <img src="../../images/extravip/6.jpg" alt="Room 1" />
+          <img src="./../images/extravip/6.jpg" alt="Room 1" />
           <div class="photo-content">
             <h2>Extra Vip</h2>
             <p>
@@ -333,7 +323,7 @@
           </div>
         </div>
         <div class="photo">
-          <img src="../../images/vip1/1.jpg" alt="Room 1" />
+          <img src="./../images/vip1/1.jpg" alt="Room 1" />
           <div class="photo-content">
             <h2>VIP</h2>
             <p>Exclusive VIP villa with luxury amenities.</p>
@@ -402,7 +392,7 @@
           </div>
         </div>
         <div class="photo">
-          <img src="../../images/vila7/vila4.jpg" alt="Room 1" />
+          <img src="./../images/vila7/vila4.jpg" alt="Room 1" />
           <div class="photo-content">
             <h2>Standard</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -471,7 +461,7 @@
           </div>
         </div>
         <div class="photo">
-          <img src="../../images/vila4.jpg" alt="Room 1" />
+          <img src="./../images/vila4.jpg" alt="Room 1" />
           <div class="photo-content">
             <h2>Garden Family Room</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -541,8 +531,8 @@
       </div>
 
       <div class="navigation-arrows">
-        <button class="nav-arrow left" onclick="scrollToLeft()"><i class="fas fa-chevron-left"></i></button>
-        <button class="nav-arrow right" onclick="scrollToRight()"><i class="fas fa-chevron-right"></i></button>
+        <button class="nav-arrow left" onclick="scrollToLeft()"></button>
+        <button class="nav-arrow right" onclick="scrollToRight()"></button>
       </div>
     </section>
 
@@ -678,11 +668,11 @@
     <footer class="minimal-footer">
       <div class="footer-content">
         <nav class="footer-nav">
-          <a href="../home/" data-i18n="nav-home">Home</a>
-          <a href="../about-us/" data-i18n="nav-about">About</a>
-          <a href="../vilas/" data-i18n="nav-villas">Villas</a>
-          <a href="../home/#location" data-i18n="nav-location">Location</a>
-          <a href="../home/#contact" data-i18n="nav-contact">Contact</a>
+          <a href="#home">Home</a>
+          <a href="#agent">About</a>
+          <a href="#about">Vilas</a>
+          <a href="#listing">Location</a>
+          <a href="#contact">Contact</a>
         </nav>
         <div class="social-icons">
           <a
@@ -720,14 +710,29 @@
       </div>
     </footer>
 
-    <script src="../../js/translations.js"></script>
-    <script src="../../js/home.js"></script>
+    <script src="./../js/home.js"></script>
     <script>
       function send() {
         alert("Mesazhi u dergua me sukses!");
         window.location.reload();
       }
     </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
+      gtag("config", "UA-XXXXXXXXX-X", {
+        cookie_flags: "SameSite=None;Secure",
+        anonymize_ip: true,
+        page_path: window.location.pathname,
+      });
+    </script>
   </body>
 </html>

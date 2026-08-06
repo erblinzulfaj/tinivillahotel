@@ -7,7 +7,7 @@
     "guests": 2,
     "beds": 1,
     "baths": 1,
-    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "price": "Pushimi/20€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
       "../../images/vila2/1.jpg",
@@ -25,7 +25,7 @@
     "guests": 2,
     "beds": 1,
     "baths": 1,
-    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "price": "Pushimi/20€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
       "../../images/vila5/1.jpg",
@@ -43,7 +43,7 @@
     "guests": 2,
     "beds": 1,
     "baths": 1,
-    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "price": "Pushimi/20€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
       "../../images/vila6/1.jpg",
@@ -61,7 +61,7 @@
     "guests": 2,
     "beds": 1,
     "baths": 1,
-    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "price": "Pushimi/20€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
       "../../images/vila7/vila1.jpg",
@@ -78,7 +78,7 @@
     "guests": 2,
     "beds": 1,
     "baths": 1,
-    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "price": "Pushimi/20€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
       "../../images/vila8/1.jpg",
@@ -96,7 +96,7 @@
     "guests": 2,
     "beds": 1,
     "baths": 1,
-    "price": "Pushimi/15€, Fjetja/25€, 24h/50€",
+    "price": "Pushimi/20€, Fjetja/25€, 24h/50€",
     "type": "Standard",
     "images": [
       "../../images/vila11/1.jpg",
@@ -114,7 +114,7 @@
     "guests": 4,
     "beds": 2,
     "baths": 2,
-    "price": "Pushimi/25€, Fjetja/50€, 24h/80€",
+    "price": "Pushimi/30€, Fjetja/60€, 24h/110€",
     "type": "VIP",
     "images": [
       "../../images/vip1/1.jpg",
@@ -130,7 +130,7 @@
     "guests": "2-3",
     "beds": 1,
     "baths": 1,
-    "price": "Pushimi/35€, Fjetja/60€, 24h/100€",
+    "price": "Pushimi/30€, Fjetja/60€, 24h/110€",
     "type": "VIP",
     "images": [
       "../../images/vip2/1.jpg",
@@ -148,7 +148,7 @@
     "guests": "2-3",
     "beds": 1,
     "baths": 1,
-    "price": "Pushimi/30€, Fjetja/60€, 24h/100€",
+    "price": "Pushimi/30€, Fjetja/60€, 24h/110€",
     "type": "ExtraVIP",
     "images": [
       "../../images/extravip/1.jpg",
